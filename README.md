@@ -1,12 +1,12 @@
 # CONECT IA SKILLS
 
-Colección de skills para Claude Code enfocadas en estrategia, contenido y productividad comercial.
+Colección de skills para Claude Code enfocadas en estrategia de contenido y productividad comercial.
 
 ## Skills disponibles
 
-| Skill | Nivel | Para quién |
+| Skill | Nivel | Uso |
 |---|---|---|
-| **REELS AI STARTER** | Inicial | Probar la creación de tres Reels y un calendario básico. |
+| **REELS AI STARTER** | Inicial | Tres Reels y calendario básico para probar el flujo. |
 | **REELS FACTORY AGENCY** | Intermedio | Agencias, community managers y freelancers que producen contenido para una o varias marcas y quieren ofrecer el servicio a clientes. |
 
 ## Instalar REELS FACTORY AGENCY
@@ -14,8 +14,6 @@ Colección de skills para Claude Code enfocadas en estrategia, contenido y produ
 Requisitos: Git y Claude Code instalados.
 
 ### macOS / Linux / Git Bash
-
-Clona el repositorio (si aún no lo tienes) y copia la carpeta de la skill:
 
 ```bash
 git clone https://github.com/brunohidalgo75-droid/CONECT-IA-SKILLS.git
@@ -36,42 +34,33 @@ Reinicia Claude Code y ejecuta:
 /reels-factory-agency
 ```
 
-### Actualizar la skill
+## ¿Qué incluye?
 
-Desde la carpeta del repositorio:
+1. Diagnóstico de marca y perfil de Instagram.
+2. Estrategia con 3 a 5 pilares.
+3. Banco de ideas priorizadas.
+4. Guiones TOFU, MOFU y BOFU.
+5. Carruseles e historias.
+6. Calendario editorial de 15 días.
+7. Documento de entrega para clientes.
+8. Flujo de agencia para separar marcas.
+9. Ayuda para definir un servicio freelance, portafolio y propuesta comercial.
 
-```bash
-git pull
-cp -R reels-factory-agency ~/.claude/skills/
-```
+## Modos de uso
 
-## ¿Qué hace REELS FACTORY AGENCY?
-
-1. Diagnostica una marca y su oferta.
-2. Analiza un perfil de Instagram con acceso real o con capturas y datos proporcionados.
-3. Diseña pilares y estrategia de contenido.
-4. Crea guiones TOFU, MOFU y BOFU.
-5. Produce ideas de Reels, carruseles e historias.
-6. Organiza un calendario editorial de 15 días.
-7. Prepara documentos de entrega para clientes.
-8. Guía a agencias y freelancers para definir y presentar un servicio de contenido comercializable.
-
-## Dos formas de utilizarla
-
-- **Modo agencia:** trabaja con marcas distintas, mantiene separada la información de cada cliente y puede preparar fichas de marca en archivos del proyecto cuando se le solicite.
-- **Modo freelancer:** ayuda a definir un nicho, construir una muestra de portafolio y empaquetar entregables para empezar a ofrecer el servicio.
+- **Mi marca:** estrategia y producción para tu negocio.
+- **Modo agencia:** trabajo ordenado para diferentes clientes.
+- **Empezar a vender:** empaquetar entregables y preparar una muestra y propuesta.
 
 ## Límites y transparencia
 
-- La skill no conecta Instagram por sí sola ni accede automáticamente a estadísticas privadas. Para analizar métricas se necesita un conector autorizado o información compartida por el usuario.
+- No conecta Instagram por sí sola ni accede automáticamente a estadísticas privadas. Para analizar métricas se necesita una herramienta autorizada o información compartida por el usuario.
 - No publica, programa, envía mensajes ni contacta prospectos.
 - No genera ni edita videos o imágenes finales.
-- No incluye CRM, base de datos persistente, scraping ni seguimiento automático de métricas.
+- No incluye CRM, base de datos persistente, scraping ni seguimiento automático.
 - No inventa estadísticas, testimonios, clientes ni resultados comerciales.
 - Los precios sugeridos son hipótesis que deben validarse en el mercado y según el alcance.
 
-## Starter vs Agency
-
-Starter es una prueba sencilla para generar tres Reels y un calendario semanal. Agency amplía el flujo para entregar una estrategia de 15 días, más formatos, documentación y trabajo ordenado para varios clientes.
+Starter es una prueba sencilla para producir tres Reels y un calendario semanal. Agency amplía el trabajo a una estrategia de 15 días, más formatos y entregables para clientes.
 
 Repositorio: https://github.com/brunohidalgo75-droid/CONECT-IA-SKILLS
