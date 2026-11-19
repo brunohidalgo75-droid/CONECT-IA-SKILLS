@@ -1,45 +1,77 @@
 # CONECT IA SKILLS
 
-Colección de skills para Claude Code. Esta primera versión incluye **REELS AI STARTER**, una skill básica para analizar una marca y preparar Reels.
+Colección de skills para Claude Code enfocadas en estrategia, contenido y productividad comercial.
 
-## Instalar REELS AI STARTER
+## Skills disponibles
+
+| Skill | Nivel | Para quién |
+|---|---|---|
+| **REELS AI STARTER** | Inicial | Probar la creación de tres Reels y un calendario básico. |
+| **REELS FACTORY AGENCY** | Intermedio | Agencias, community managers y freelancers que producen contenido para una o varias marcas y quieren ofrecer el servicio a clientes. |
+
+## Instalar REELS FACTORY AGENCY
 
 Requisitos: Git y Claude Code instalados.
 
 ### macOS / Linux / Git Bash
 
+Clona el repositorio (si aún no lo tienes) y copia la carpeta de la skill:
+
 ```bash
 git clone https://github.com/brunohidalgo75-droid/CONECT-IA-SKILLS.git
 mkdir -p ~/.claude/skills
-cp -R CONECT-IA-SKILLS/reels-factory ~/.claude/skills/
+cp -R CONECT-IA-SKILLS/reels-factory-agency ~/.claude/skills/
 ```
 
-Si ya clonaste el repositorio, ejecuta solamente:
+Si ya clonaste el repositorio:
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -R CONECT-IA-SKILLS/reels-factory ~/.claude/skills/
+cp -R CONECT-IA-SKILLS/reels-factory-agency ~/.claude/skills/
 ```
 
-Reinicia Claude Code y escribe:
+Reinicia Claude Code y ejecuta:
 
 ```text
-/reels-factory
+/reels-factory-agency
 ```
 
-## ¿Qué hace?
+### Actualizar la skill
 
-1. Configura el perfil básico de tu marca.
-2. Analiza Instagram si existe un conector/herramienta con acceso real; de lo contrario, trabaja con enlaces, capturas o datos que compartas.
-3. Crea tres Reels: TOFU, MOFU y BOFU.
-4. Entrega guiones, ganchos, textos en pantalla, sugerencias visuales y CTA.
-5. Organiza una semana básica de contenido.
+Desde la carpeta del repositorio:
 
-## Importante
+```bash
+git pull
+cp -R reels-factory-agency ~/.claude/skills/
+```
 
-- La skill no conecta Instagram por sí sola. Para analizar datos privados o métricas necesitas un conector compatible y autorizarlo.
-- No publica ni programa contenido. Genera materiales para que los revises y publiques.
-- No inventa estadísticas ni resultados.
-- La instalación copia la carpeta de esta skill a tu directorio personal de skills de Claude Code.
+## ¿Qué hace REELS FACTORY AGENCY?
+
+1. Diagnostica una marca y su oferta.
+2. Analiza un perfil de Instagram con acceso real o con capturas y datos proporcionados.
+3. Diseña pilares y estrategia de contenido.
+4. Crea guiones TOFU, MOFU y BOFU.
+5. Produce ideas de Reels, carruseles e historias.
+6. Organiza un calendario editorial de 15 días.
+7. Prepara documentos de entrega para clientes.
+8. Guía a agencias y freelancers para definir y presentar un servicio de contenido comercializable.
+
+## Dos formas de utilizarla
+
+- **Modo agencia:** trabaja con marcas distintas, mantiene separada la información de cada cliente y puede preparar fichas de marca en archivos del proyecto cuando se le solicite.
+- **Modo freelancer:** ayuda a definir un nicho, construir una muestra de portafolio y empaquetar entregables para empezar a ofrecer el servicio.
+
+## Límites y transparencia
+
+- La skill no conecta Instagram por sí sola ni accede automáticamente a estadísticas privadas. Para analizar métricas se necesita un conector autorizado o información compartida por el usuario.
+- No publica, programa, envía mensajes ni contacta prospectos.
+- No genera ni edita videos o imágenes finales.
+- No incluye CRM, base de datos persistente, scraping ni seguimiento automático de métricas.
+- No inventa estadísticas, testimonios, clientes ni resultados comerciales.
+- Los precios sugeridos son hipótesis que deben validarse en el mercado y según el alcance.
+
+## Starter vs Agency
+
+Starter es una prueba sencilla para generar tres Reels y un calendario semanal. Agency amplía el flujo para entregar una estrategia de 15 días, más formatos, documentación y trabajo ordenado para varios clientes.
 
 Repositorio: https://github.com/brunohidalgo75-droid/CONECT-IA-SKILLS
